@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ModbusAdapter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="initialize" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAiAAAQAEABAAAgAAEAAAAAAQAgAAAAgAgAAAAgAAA=</HashCode>
+      <FileName>C:\Project\UNMan\Software\adapter2\modbus\modbus_adapter.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,22 @@
+﻿Build started 2/15/2016 2:42:37 PM.
+     1>Project "C:\Project\UNMan\Software\adapter2\yaml\parse.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\parse.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4127 /wd4355 /analyze- /errorReport:prompt util\parse.cpp /D_SCL_SECURE_NO_WARNINGS 
+         parse.cpp
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\UNMan\Software\adapter2\yaml\Debug\parse.exe" /NOLOGO /LIBPATH:lib yamlcppd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\parse.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Project\UNMan\Software\adapter2\yaml\Debug\parse.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\UNMan\Software\adapter2\yaml\Debug\parse.lib" /MACHINE:X86 Debug\parse.obj
+         C:\Project\UNMan\Software\adapter2\yaml\lib\yamlcppd.lib
+     1>parse.obj : warning LNK4099: PDB 'vc100.pdb' was not found with 'parse.obj' or at 'C:\Project\UNMan\Software\adapter2\yaml\Debug\vc100.pdb'; linking object as if no debug info
+         parse.vcxproj -> C:\Project\UNMan\Software\adapter2\yaml\Debug\parse.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Project\UNMan\Software\adapter2\yaml\Debug\parse.exe;#1" /manifest Debug\parse.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\parse.unsuccessfulbuild".
+         Touching "Debug\parse.lastbuildstate".
+     1>Done Building Project "C:\Project\UNMan\Software\adapter2\yaml\parse.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.23

@@ -1,0 +1,72 @@
+﻿Build started 2/19/2016 5:04:05 PM.
+     1>Project "C:\Project\UNMan\Software\adapter2\modbus\build\adapter.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "adapter.dir\Debug\adapter.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Project\UNMan\Software\adapter2\modbus\..\yaml\src /IC:\Project\UNMan\Software\adapter2\modbus\..\yaml\include /IC:\Project\UNMan\Software\adapter2\modbus\..\src /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"adapter.dir\Debug\\" /Fd"adapter.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\modbus_lib.c
+         modbus_lib.c
+     1>C:\Project\UNMan\Software\adapter2\src\internal.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>c:\project\unman\software\adapter2\modbus\modbus.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>..\modbus_lib.c(524): warning C4047: '==' : 'SOCKET' differs in levels of indirection from 'HANDLE'
+     1>..\modbus_lib.c(524): warning C4047: '=' : 'SOCKET' differs in levels of indirection from 'HANDLE'
+     1>..\modbus_lib.c(1482): warning C4047: '=' : 'BYTE' differs in levels of indirection from 'char *'
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\UNMan\Software\adapter2\modbus\build\Debug\adapter.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wsock32.lib /MANIFEST /ManifestFile:"adapter.dir\Debug\adapter.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/Project/UNMan/Software/adapter2/modbus/build/Debug/adapter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Project/UNMan/Software/adapter2/modbus/build/Debug/adapter.lib" /MACHINE:X86 adapter.dir\Debug\adapter.exe.embed.manifest.res
+         adapter.dir\Debug\aliascontent.obj
+         adapter.dir\Debug\conversion.obj
+         adapter.dir\Debug\emitter.obj
+         adapter.dir\Debug\emitterstate.obj
+         adapter.dir\Debug\emitterutils.obj
+         adapter.dir\Debug\exp.obj
+         adapter.dir\Debug\iterator.obj
+         adapter.dir\Debug\map.obj
+         adapter.dir\Debug\node.obj
+         adapter.dir\Debug\null.obj
+         adapter.dir\Debug\ostream.obj
+         adapter.dir\Debug\parser.obj
+         adapter.dir\Debug\parserstate.obj
+         adapter.dir\Debug\regex.obj
+         adapter.dir\Debug\scalar.obj
+         adapter.dir\Debug\scanner.obj
+         adapter.dir\Debug\scanscalar.obj
+         adapter.dir\Debug\scantag.obj
+         adapter.dir\Debug\scantoken.obj
+         adapter.dir\Debug\sequence.obj
+         adapter.dir\Debug\simplekey.obj
+         adapter.dir\Debug\stream.obj
+         adapter.dir\Debug\tag.obj
+         adapter.dir\Debug\adapter.obj
+         adapter.dir\Debug\client.obj
+         adapter.dir\Debug\condition.obj
+         adapter.dir\Debug\configuration.obj
+         adapter.dir\Debug\cutting_tool.obj
+         adapter.dir\Debug\device_datum.obj
+         adapter.dir\Debug\logger.obj
+         adapter.dir\Debug\serial.obj
+         adapter.dir\Debug\server.obj
+         adapter.dir\Debug\service.obj
+         adapter.dir\Debug\string_array.obj
+         adapter.dir\Debug\string_buffer.obj
+         adapter.dir\Debug\time_series.obj
+         adapter.dir\Debug\modbus.obj
+         adapter.dir\Debug\modbus_adapter.obj
+         adapter.dir\Debug\modbus_lib.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"adapter.dir\Debug\adapter.exe.embed.manifest" /manifest adapter.dir\Debug\adapter.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         adapter.vcxproj -> C:\Project\UNMan\Software\adapter2\modbus\build\Debug\adapter.exe
+       FinalizeBuildStatus:
+         Deleting file "adapter.dir\Debug\adapter.unsuccessfulbuild".
+         Touching "adapter.dir\Debug\adapter.lastbuildstate".
+     1>Done Building Project "C:\Project\UNMan\Software\adapter2\modbus\build\adapter.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96

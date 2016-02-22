@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{6133BBF8-12D2-338D-883D-3B886FFDDD5A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>adapter</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">adapter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">adapter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">adapter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">adapter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">adapter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">adapter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">adapter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">adapter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/UNMan/Software/adapter2/modbus/build/Debug/adapter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/UNMan/Software/adapter2/modbus/build/Debug/adapter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/UNMan/Software/adapter2/modbus/build/Release/adapter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/UNMan/Software/adapter2/modbus/build/Release/adapter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/UNMan/Software/adapter2/modbus/build/MinSizeRel/adapter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/UNMan/Software/adapter2/modbus/build/MinSizeRel/adapter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Project\UNMan\Software\adapter2\modbus\..\yaml\src;C:\Project\UNMan\Software\adapter2\modbus\..\yaml\include;C:\Project\UNMan\Software\adapter2\modbus\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;wsock32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Project/UNMan/Software/adapter2/modbus/build/RelWithDebInfo/adapter.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Project/UNMan/Software/adapter2/modbus/build/RelWithDebInfo/adapter.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Project/UNMan/Software/adapter2/modbus -BC:/Project/UNMan/Software/adapter2/modbus/build --check-stamp-file C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Project/UNMan/Software/adapter2/modbus -BC:/Project/UNMan/Software/adapter2/modbus/build --check-stamp-file C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Project/UNMan/Software/adapter2/modbus -BC:/Project/UNMan/Software/adapter2/modbus/build --check-stamp-file C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Project/UNMan/Software/adapter2/modbus -BC:/Project/UNMan/Software/adapter2/modbus/build --check-stamp-file C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Project/UNMan/Software/adapter2/modbus/CMakeLists.txt;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystem.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.4\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\feature_tests.cxx;C:\Program Files\CMake\share\cmake-3.4\Modules\CMakeCXXCompiler.cmake.in;C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\Project\UNMan\Software\adapter2\modbus\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Project\UNMan\Software\adapter2\modbus\build\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\yaml\src\aliascontent.cpp" />
+    <ClCompile Include="..\..\yaml\src\conversion.cpp" />
+    <ClCompile Include="..\..\yaml\src\emitter.cpp" />
+    <ClCompile Include="..\..\yaml\src\emitterstate.cpp" />
+    <ClCompile Include="..\..\yaml\src\emitterutils.cpp" />
+    <ClCompile Include="..\..\yaml\src\exp.cpp" />
+    <ClCompile Include="..\..\yaml\src\iterator.cpp" />
+    <ClCompile Include="..\..\yaml\src\map.cpp" />
+    <ClCompile Include="..\..\yaml\src\node.cpp" />
+    <ClCompile Include="..\..\yaml\src\null.cpp" />
+    <ClCompile Include="..\..\yaml\src\ostream.cpp" />
+    <ClCompile Include="..\..\yaml\src\parser.cpp" />
+    <ClCompile Include="..\..\yaml\src\parserstate.cpp" />
+    <ClCompile Include="..\..\yaml\src\regex.cpp" />
+    <ClCompile Include="..\..\yaml\src\scalar.cpp" />
+    <ClCompile Include="..\..\yaml\src\scanner.cpp" />
+    <ClCompile Include="..\..\yaml\src\scanscalar.cpp" />
+    <ClCompile Include="..\..\yaml\src\scantag.cpp" />
+    <ClCompile Include="..\..\yaml\src\scantoken.cpp" />
+    <ClCompile Include="..\..\yaml\src\sequence.cpp" />
+    <ClCompile Include="..\..\yaml\src\simplekey.cpp" />
+    <ClCompile Include="..\..\yaml\src\stream.cpp" />
+    <ClCompile Include="..\..\yaml\src\tag.cpp" />
+    <ClCompile Include="..\..\src\adapter.cpp" />
+    <ClCompile Include="..\..\src\client.cpp" />
+    <ClCompile Include="..\..\src\condition.cpp" />
+    <ClCompile Include="..\..\src\configuration.cpp" />
+    <ClCompile Include="..\..\src\cutting_tool.cpp" />
+    <ClCompile Include="..\..\src\device_datum.cpp" />
+    <ClCompile Include="..\..\src\logger.cpp" />
+    <ClCompile Include="..\..\src\serial.cpp" />
+    <ClCompile Include="..\..\src\server.cpp" />
+    <ClCompile Include="..\..\src\service.cpp" />
+    <ClCompile Include="..\..\src\string_array.cpp" />
+    <ClCompile Include="..\..\src\string_buffer.cpp" />
+    <ClCompile Include="..\..\src\time_series.cpp" />
+    <ClCompile Include="..\modbus.cpp" />
+    <ClCompile Include="..\modbus_adapter.cpp" />
+    <ClCompile Include="..\modbus_lib.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Project/UNMan/Software/adapter2/modbus/build/ZERO_CHECK.vcxproj">
+      <Project>102E9BB8-3134-30E1-9D3B-918A11CE154C</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\modbus_adapter.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

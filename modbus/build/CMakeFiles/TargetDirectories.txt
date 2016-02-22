@@ -1,0 +1,3 @@
+C:/Project/UNMan/Software/adapter2/modbus/build/CMakeFiles/adapter.dir
+C:/Project/UNMan/Software/adapter2/modbus/build/CMakeFiles/ALL_BUILD.dir
+C:/Project/UNMan/Software/adapter2/modbus/build/CMakeFiles/ZERO_CHECK.dir

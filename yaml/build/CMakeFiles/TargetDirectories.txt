@@ -1,0 +1,3 @@
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/run-tests.dir
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/ALL_BUILD.dir
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/ZERO_CHECK.dir

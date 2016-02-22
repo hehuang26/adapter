@@ -1,0 +1,294 @@
+﻿Build started 2/15/2016 3:13:58 PM.
+     1>Project "C:\Project\UNMan\Software\adapter2\yaml\build\run-tests.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "run-tests.dir\Debug\run-tests.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"run-tests.dir\Debug\\" /Fd"run-tests.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\test\emittertests.cpp ..\test\parsertests.cpp ..\test\spectests.cpp ..\test\tests.cpp
+         emittertests.cpp
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C2146: syntax error : missing ';' before identifier 'm_cCurToken'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C2146: syntax error : missing ';' before identifier 'm_cCurWord'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C2146: syntax error : missing ';' before identifier 'm_cCurBuffer'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C2146: syntax error : missing ';' before identifier 'm_dwError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C2146: syntax error : missing ';' before identifier 'Read'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): warning C4183: 'Read': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2146: syntax error : missing ';' before identifier 'SetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2061: syntax error : identifier 'DWORD'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): warning C4183: 'SetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): warning C4183: 'GetFirstWord': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): warning C4183: 'GetValue': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2146: syntax error : missing ';' before identifier 'Start'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2143: syntax error : missing ',' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): warning C4183: 'Start': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): warning C4183: 'GetToken': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2146: syntax error : missing ';' before identifier 'GetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): warning C4183: 'GetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'dw' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(66): error C2065: 'm_cCurBuffer' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(67): error C2065: 'm_pCurrentIndex' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(68): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2146: syntax error : missing ';' before identifier 'AddTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): warning C4183: 'AddTail': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2146: syntax error : missing ';' before identifier 'GetTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2061: syntax error : identifier 'PZPSTR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): warning C4183: 'GetTail': missing return type; assumed to be a member function returning 'int'
+     1>c:\project\unman\software\adapter2\yaml\test\yaml.h(8): fatal error C1083: Cannot open include file: 'node.h': No such file or directory
+         parsertests.cpp
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C2146: syntax error : missing ';' before identifier 'm_cCurToken'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C2146: syntax error : missing ';' before identifier 'm_cCurWord'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C2146: syntax error : missing ';' before identifier 'm_cCurBuffer'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C2146: syntax error : missing ';' before identifier 'm_dwError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C2146: syntax error : missing ';' before identifier 'Read'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): warning C4183: 'Read': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2146: syntax error : missing ';' before identifier 'SetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2061: syntax error : identifier 'DWORD'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): warning C4183: 'SetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): warning C4183: 'GetFirstWord': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): warning C4183: 'GetValue': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2146: syntax error : missing ';' before identifier 'Start'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2143: syntax error : missing ',' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): warning C4183: 'Start': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): warning C4183: 'GetToken': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2146: syntax error : missing ';' before identifier 'GetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): warning C4183: 'GetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'dw' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(66): error C2065: 'm_cCurBuffer' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(67): error C2065: 'm_pCurrentIndex' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(68): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2146: syntax error : missing ';' before identifier 'AddTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): warning C4183: 'AddTail': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2146: syntax error : missing ';' before identifier 'GetTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2061: syntax error : identifier 'PZPSTR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): warning C4183: 'GetTail': missing return type; assumed to be a member function returning 'int'
+     1>c:\project\unman\software\adapter2\yaml\test\yaml.h(8): fatal error C1083: Cannot open include file: 'node.h': No such file or directory
+         spectests.cpp
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C2146: syntax error : missing ';' before identifier 'm_cCurToken'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C2146: syntax error : missing ';' before identifier 'm_cCurWord'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C2146: syntax error : missing ';' before identifier 'm_cCurBuffer'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C2146: syntax error : missing ';' before identifier 'm_dwError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C2146: syntax error : missing ';' before identifier 'Read'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): warning C4183: 'Read': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2146: syntax error : missing ';' before identifier 'SetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2061: syntax error : identifier 'DWORD'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): warning C4183: 'SetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): warning C4183: 'GetFirstWord': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): warning C4183: 'GetValue': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2146: syntax error : missing ';' before identifier 'Start'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2143: syntax error : missing ',' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): warning C4183: 'Start': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): warning C4183: 'GetToken': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2146: syntax error : missing ';' before identifier 'GetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): warning C4183: 'GetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'dw' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(66): error C2065: 'm_cCurBuffer' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(67): error C2065: 'm_pCurrentIndex' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(68): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2146: syntax error : missing ';' before identifier 'AddTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): warning C4183: 'AddTail': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2146: syntax error : missing ';' before identifier 'GetTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2061: syntax error : identifier 'PZPSTR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): warning C4183: 'GetTail': missing return type; assumed to be a member function returning 'int'
+     1>c:\project\unman\software\adapter2\yaml\test\yaml.h(8): fatal error C1083: Cannot open include file: 'node.h': No such file or directory
+         tests.cpp
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C2146: syntax error : missing ';' before identifier 'm_cCurToken'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C2146: syntax error : missing ';' before identifier 'm_cCurWord'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C2146: syntax error : missing ';' before identifier 'm_cCurBuffer'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(56): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C2146: syntax error : missing ';' before identifier 'm_dwError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(57): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C2146: syntax error : missing ';' before identifier 'Read'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(60): warning C4183: 'Read': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2146: syntax error : missing ';' before identifier 'SetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2061: syntax error : identifier 'DWORD'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): warning C4183: 'SetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(75): warning C4183: 'GetFirstWord': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(76): warning C4183: 'GetValue': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2146: syntax error : missing ';' before identifier 'Start'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C2143: syntax error : missing ',' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(78): warning C4183: 'Start': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(80): warning C4183: 'GetToken': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2146: syntax error : missing ';' before identifier 'GetError'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): warning C4183: 'GetError': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'dw' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(61): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(66): error C2065: 'm_cCurBuffer' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(67): error C2065: 'm_pCurrentIndex' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(68): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(81): error C2065: 'm_dwError' : undeclared identifier
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C2143: syntax error : missing ';' before '*'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2146: syntax error : missing ';' before identifier 'AddTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C2061: syntax error : identifier 'CHAR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(101): warning C4183: 'AddTail': missing return type; assumed to be a member function returning 'int'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2146: syntax error : missing ';' before identifier 'GetTail'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C2061: syntax error : identifier 'PZPSTR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\parser.h(102): warning C4183: 'GetTail': missing return type; assumed to be a member function returning 'int'
+     1>c:\project\unman\software\adapter2\yaml\test\yaml.h(8): fatal error C1083: Cannot open include file: 'node.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Project\UNMan\Software\adapter2\yaml\build\run-tests.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.29

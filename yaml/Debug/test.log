@@ -1,0 +1,30 @@
+﻿Build started 2/15/2016 2:42:37 PM.
+     1>Project "C:\Project\UNMan\Software\adapter2\yaml\test.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4127 /wd4355 /analyze- /errorReport:prompt test\emittertests.cpp test\main.cpp test\parsertests.cpp test\spectests.cpp test\tests.cpp /D_SCL_SECURE_NO_WARNINGS 
+         tests.cpp
+         spectests.cpp
+         parsertests.cpp
+         main.cpp
+         emittertests.cpp
+         Generating Code...
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Project\UNMan\Software\adapter2\yaml\Debug\test.exe" /NOLOGO /LIBPATH:lib yamlcppd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Project\UNMan\Software\adapter2\yaml\Debug\test.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Project\UNMan\Software\adapter2\yaml\Debug\test.lib" /MACHINE:X86 Debug\emittertests.obj
+         Debug\main.obj
+         Debug\parsertests.obj
+         Debug\spectests.obj
+         Debug\tests.obj
+         C:\Project\UNMan\Software\adapter2\yaml\lib\yamlcppd.lib
+         test.vcxproj -> C:\Project\UNMan\Software\adapter2\yaml\Debug\test.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Project\UNMan\Software\adapter2\yaml\Debug\test.exe;#1" /manifest Debug\test.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\test.unsuccessfulbuild".
+         Touching "Debug\test.lastbuildstate".
+     1>Done Building Project "C:\Project\UNMan\Software\adapter2\yaml\test.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.55

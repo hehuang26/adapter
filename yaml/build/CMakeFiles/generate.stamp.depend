@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+C:/Project/UNMan/Software/adapter2/yaml/test/CMakeLists.txt
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/3.4.1/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/3.4.1/CMakeCCompiler.cmake
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/3.4.1/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+C:/Project/UNMan/Software/adapter2/yaml/build/CMakeFiles/3.4.1/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake

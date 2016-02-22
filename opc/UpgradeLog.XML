@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="opc">
+</Property><Property Name="Solution File" Value="C:\Project\UNMan\Software\adapter\opc\opc.sln">
+</Property><Property Name="Date" Value="Wednesday, January 06, 2016">
+</Property><Property Name="Time" Value="11:00 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="opc.sln" Description="File successfully backed up as C:\Project\UNMan\Software\adapter\opc\opc.sln.old">
+</Event><Event ErrorLevel="0" Project="opc" Source="opc.vcproj" Description="Converting project file 'C:\Project\UNMan\Software\adapter\opc\opc.vcproj'.">
+</Event><Event ErrorLevel="1" Project="opc" Source="opc.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="opc" Source="opc.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="opc" Source="opc.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="opc" Source="opc.vcproj" Description="Done converting to new project file 'C:\Project\UNMan\Software\adapter\opc\opc.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="opc" Source="opc.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="opc.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="opc.sln" Description="Converted">
+</Event></UpgradeLog>

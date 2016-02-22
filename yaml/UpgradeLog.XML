@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="yamlcpp">
+</Property><Property Name="Solution File" Value="C:\Project\UNMan\Software\adapter2\yaml\yamlcpp.sln">
+</Property><Property Name="Date" Value="Monday, February 15, 2016">
+</Property><Property Name="Time" Value="14:28 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="yamlcpp.sln" Description="File successfully backed up as C:\Project\UNMan\Software\adapter2\yaml\yamlcpp.sln.old">
+</Event><Event ErrorLevel="0" Project="yamlcpp" Source="yamlcpp.vcproj" Description="Converting project file 'C:\Project\UNMan\Software\adapter2\yaml\yamlcpp.vcproj'.">
+</Event><Event ErrorLevel="1" Project="yamlcpp" Source="yamlcpp.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="yamlcpp" Source="yamlcpp.vcproj" Description="MSB8012: $(TargetName) ('yamlcpp') does not match the Librarian's OutputFile property value 'lib\yamlcppd.lib' ('yamlcppd') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="1" Project="yamlcpp" Source="yamlcpp.vcproj" Description="MSB8012: $(TargetPath) ('C:\Project\UNMan\Software\adapter2\yaml\Debug\yamlcpp.lib') does not match the Librarian's OutputFile property value 'lib\yamlcppd.lib' ('C:\Project\UNMan\Software\adapter2\yaml\lib\yamlcppd.lib') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="1" Project="yamlcpp" Source="yamlcpp.vcproj" Description="MSB8012: $(TargetPath) ('C:\Project\UNMan\Software\adapter2\yaml\Release\yamlcpp.lib') does not match the Librarian's OutputFile property value 'lib\yamlcpp.lib' ('C:\Project\UNMan\Software\adapter2\yaml\lib\yamlcpp.lib') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Lib.OutputFile).">
+</Event><Event ErrorLevel="0" Project="yamlcpp" Source="yamlcpp.vcproj" Description="Done converting to new project file 'C:\Project\UNMan\Software\adapter2\yaml\yamlcpp.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="yamlcpp" Source="yamlcpp.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="test" Source="test.vcproj" Description="Converting project file 'C:\Project\UNMan\Software\adapter2\yaml\test.vcproj'.">
+</Event><Event ErrorLevel="1" Project="test" Source="test.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="test" Source="test.vcproj" Description="Done converting to new project file 'C:\Project\UNMan\Software\adapter2\yaml\test.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="test" Source="test.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="parse" Source="parse.vcproj" Description="Converting project file 'C:\Project\UNMan\Software\adapter2\yaml\parse.vcproj'.">
+</Event><Event ErrorLevel="1" Project="parse" Source="parse.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="parse" Source="parse.vcproj" Description="Done converting to new project file 'C:\Project\UNMan\Software\adapter2\yaml\parse.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="parse" Source="parse.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="yamlcpp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="yamlcpp.sln" Description="Converted">
+</Event></UpgradeLog>
